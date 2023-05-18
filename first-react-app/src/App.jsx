@@ -1,12 +1,10 @@
 import "./App.css";
-import Chicken from "./chicken-component/chicken";
+import Greeter from "./greeter";
 
 function App() {
   return (
     <div>
-      <Chicken />
-      <Chicken />
-      <Chicken />
+      <Greeter person="Julian"/>
     </div>
   );
 }
